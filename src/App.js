@@ -1,18 +1,22 @@
-
-import Counter from './components/Counter';
-import DecreaseCounter from './components/DecreaseCounter';
-import IncreaseByTwoCounter from './components/IncreaseByTwoCounter';
-import IncreaseCounter from './components/IncreaseCounter';
+import React from "react";
+import "./App.css";
+import todoInput from "./components/todoInput";
+import todos from "./components/Todos";
 
 function App() {
   return (
-   <div>
-     <Counter/>
-     <IncreaseCounter/>
-     <DecreaseCounter/>
-     <IncreaseByTwoCounter/>
+    <div className="App">
+      <div className="App_container">
+        <div className="app_todoContainer">
 
-   </div>
+          <todos/>
+          <todoInput/>
+          
+
+
+        </div>
+      </div>
+    </div>
   );
 }
 
