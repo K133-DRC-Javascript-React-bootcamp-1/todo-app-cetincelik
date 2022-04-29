@@ -10,7 +10,7 @@ class DecreaseCounter extends Component {
            <button onClick={e=>{
               this.props.dispatch(decreaseCounter());
           }}>
-              1 eksilt
+              1 eksiltm
           </button>
       </div>
     )
